@@ -8,7 +8,7 @@ parts:
   - translation:
       key: "txt.apps.five_most_recent_app.app.description"
       title: "App description"
-      value: "Display the five most recent tickets the requester has submited"
+      value: "Display the five most recent tickets the requester has submitted"
   - translation:
       key: "txt.apps.five_most_recent_app.app.name"
       title: "App name"
