@@ -1,0 +1,13 @@
+{
+  "app": {
+    "description": "Die letzten fünf vom Anfragenden eingereichten Tickets anzeigen",
+    "name": "Letzte fünf Tickets"
+  },
+  "global": {
+    "error": {
+      "title": "Fehler aufgetreten",
+      "message": "Versuchen Sie die vorherige Aktion noch einmal.",
+      "data": "Ticketdaten konnten nicht gelesen werden."
+    }
+  }
+}

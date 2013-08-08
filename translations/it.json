@@ -1,0 +1,13 @@
+{
+  "app": {
+    "description": "Visualizza i cinque ticket più recenti inviati dal richiedente",
+    "name": "Cinque più recenti"
+  },
+  "global": {
+    "error": {
+      "title": "Si è verificato un errore",
+      "message": "Riprova l’azione precedente.",
+      "data": "Impossibile leggere i dati del ticket."
+    }
+  }
+}

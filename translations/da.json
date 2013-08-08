@@ -1,0 +1,13 @@
+{
+  "app": {
+    "description": "Vis de sidste fem tickets, som anmoderen har sendt",
+    "name": "De sidste fem"
+  },
+  "global": {
+    "error": {
+      "title": "Der forekom en fejl",
+      "message": "Prøv forrige handling igen.",
+      "data": "Ticket-dataene kunne ikke læses."
+    }
+  }
+}

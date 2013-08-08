@@ -1,0 +1,13 @@
+{
+  "app": {
+    "description": "Exibir os cinco tickets mais recentes enviados pelo solicitante",
+    "name": "Cinco mais recentes"
+  },
+  "global": {
+    "error": {
+      "title": "Ocorreu um erro",
+      "message": "Repita a ação anterior.",
+      "data": "Não foi possível ler os dados do ticket."
+    }
+  }
+}
