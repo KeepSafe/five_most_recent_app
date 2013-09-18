@@ -4,6 +4,7 @@
     "name": "Five most recent"
   },
   "global": {
+    "status": "Status:",
     "error": {
       "title": "An error occurred",
       "message": "Please try the previous action again.",
