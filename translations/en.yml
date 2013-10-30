@@ -14,6 +14,10 @@ parts:
       title: "App name"
       value: "Five most recent"
   - translation:
+      key: "txt.apps.five_most_recent_app.global.status"
+      title: "Status of the ticket, following this will be the status of the ticket, can be either open, pending, solved etc..."
+      value: "Status:"
+  - translation:
       key: "txt.apps.five_most_recent_app.global.error.title"
       title: "Error message"
       value: "An error occurred"
