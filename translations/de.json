@@ -4,6 +4,7 @@
     "name": "Letzte fünf Tickets"
   },
   "global": {
+    "status": "Status:",
     "error": {
       "title": "Fehler aufgetreten",
       "message": "Versuchen Sie die vorherige Aktion noch einmal.",

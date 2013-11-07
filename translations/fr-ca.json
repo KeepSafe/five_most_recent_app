@@ -1,0 +1,14 @@
+{
+  "app": {
+    "description": "Afficher les cinq billets les plus récents envoyés par le demandeur",
+    "name": "Cinq billets les plus récents"
+  },
+  "global": {
+    "status": "Statut :",
+    "error": {
+      "title": "Une erreur est survenue.",
+      "message": "Veuillez réessayer l’action précédente.",
+      "data": "Impossible de lire les données de billet."
+    }
+  }
+}

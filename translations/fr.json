@@ -4,6 +4,7 @@
     "name": "Cinq tickets les plus récents"
   },
   "global": {
+    "status": "Statut :",
     "error": {
       "title": "Une erreur est survenue.",
       "message": "Veuillez réessayer l’action précédente.",

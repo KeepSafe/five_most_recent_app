@@ -4,6 +4,7 @@
     "name": "Cinque più recenti"
   },
   "global": {
+    "status": "Stato:",
     "error": {
       "title": "Si è verificato un errore",
       "message": "Riprova l’azione precedente.",
