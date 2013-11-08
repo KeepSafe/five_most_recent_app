@@ -10,5 +10,11 @@
       "message": "Please try the previous action again.",
       "data": "Ticket data could not be read."
     }
-  }
+  },
+  "new": "New",
+  "open": "Open",
+  "pending": "Pending",
+  "hold": "Hold",
+  "solved": "Solved",
+  "closed": "Closed"
 }
