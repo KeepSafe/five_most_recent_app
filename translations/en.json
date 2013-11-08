@@ -11,10 +11,10 @@
       "data": "Ticket data could not be read."
     }
   },
-  "new": "new",
-  "open": "open",
-  "pending": "pending",
-  "hold": "hold",
-  "solved": "solved",
-  "closed": "closed"
+  "new": "New",
+  "open": "Open",
+  "pending": "Pending",
+  "hold": "Hold",
+  "solved": "Solved",
+  "closed": "Closed"
 }

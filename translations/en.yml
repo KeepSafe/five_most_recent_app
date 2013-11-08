@@ -29,4 +29,27 @@ parts:
       key: "txt.apps.five_most_recent_app.global.error.data"
       title: "Error message"
       value: "Ticket data could not be read."
-
+  - translation:
+      key: "txt.apps.five_most_recent_app.new"
+      title: "New status"
+      value: "New"
+  - translation:
+      key: "txt.apps.five_most_recent_app.hold"
+      title: "On Hold status"
+      value: "Hold"
+  - translation:
+      key: "txt.apps.five_most_recent_app.closed"
+      title: "Closed status"
+      value: "Closed"
+  - translation:
+      key: "txt.apps.five_most_recent_app.solved"
+      title: "Solved status"
+      value: "Solved"
+- translation:
+      key: "txt.apps.five_most_recent_app.open"
+      title: "Open status"
+      value: "Open"
+- translation:
+      key: "txt.apps.five_most_recent_app.pending"
+      title: "Pending status"
+      value: "Pending"
