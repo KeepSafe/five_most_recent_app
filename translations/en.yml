@@ -36,7 +36,7 @@ parts:
   - translation:
       key: "txt.apps.five_most_recent_app.hold"
       title: "On Hold status"
-      value: "Hold"
+      value: "On-hold"
   - translation:
       key: "txt.apps.five_most_recent_app.closed"
       title: "Closed status"
@@ -45,11 +45,11 @@ parts:
       key: "txt.apps.five_most_recent_app.solved"
       title: "Solved status"
       value: "Solved"
-- translation:
+  - translation:
       key: "txt.apps.five_most_recent_app.open"
       title: "Open status"
       value: "Open"
-- translation:
+  - translation:
       key: "txt.apps.five_most_recent_app.pending"
       title: "Pending status"
       value: "Pending"
