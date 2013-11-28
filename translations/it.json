@@ -10,5 +10,11 @@
       "message": "Riprova l’azione precedente.",
       "data": "Impossibile leggere i dati del ticket."
     }
-  }
+  },
+  "new": "Nuovo",
+  "hold": "In sospeso",
+  "closed": "Chiuso",
+  "solved": "Risolto",
+  "open": "Aperto",
+  "pending": "In attesa"
 }

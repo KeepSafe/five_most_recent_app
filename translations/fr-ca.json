@@ -10,5 +10,11 @@
       "message": "Veuillez réessayer l’action précédente.",
       "data": "Impossible de lire les données de billet."
     }
-  }
+  },
+  "new": "Nouveau",
+  "hold": "En pause",
+  "closed": "Clos",
+  "solved": "Résolu",
+  "open": "Ouvert",
+  "pending": "En attente"
 }

@@ -10,5 +10,11 @@
       "message": "Versuchen Sie die vorherige Aktion noch einmal.",
       "data": "Ticketdaten konnten nicht gelesen werden."
     }
-  }
+  },
+  "new": "Neu",
+  "hold": "Angehalten",
+  "closed": "Geschlossen",
+  "solved": "Gelöst",
+  "open": "Offen",
+  "pending": "Wartend"
 }

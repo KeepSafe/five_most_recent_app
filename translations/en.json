@@ -1,6 +1,6 @@
 {
   "app": {
-    "description": "Display the five most recent tickets the requester has submited",
+    "description": "Display the five most recent tickets the requester has submitted",
     "name": "Five most recent"
   },
   "global": {
@@ -14,7 +14,7 @@
   "new": "New",
   "open": "Open",
   "pending": "Pending",
-  "hold": "Hold",
+  "hold": "On-hold",
   "solved": "Solved",
   "closed": "Closed"
 }

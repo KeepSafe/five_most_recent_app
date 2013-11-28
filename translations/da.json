@@ -10,5 +10,11 @@
       "message": "Prøv forrige handling igen.",
       "data": "Ticket-dataene kunne ikke læses."
     }
-  }
+  },
+  "new": "Ny",
+  "hold": "I bero",
+  "closed": "Lukket",
+  "solved": "Løst",
+  "open": "Åben",
+  "pending": "Venter"
 }

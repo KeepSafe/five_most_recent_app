@@ -10,5 +10,11 @@
       "message": "Vuelva a intentar la acción anterior.",
       "data": "No se pudieron leer los datos del ticket."
     }
-  }
+  },
+  "new": "Nuevo",
+  "hold": "En espera",
+  "closed": "Cerrado",
+  "solved": "Resuelto",
+  "open": "Abierto",
+  "pending": "Pendiente"
 }
