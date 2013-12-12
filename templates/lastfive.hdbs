@@ -5,7 +5,7 @@
         <tr class="_tooltip" data-title="{{description}}">
           <td><a href="#/tickets/{{id}}"><b>#{{id}}</b> {{subject}}</a></td>
 
-          <td>
+          <td class='status-cell'>
             <b class="status">
               {{t "global.status"}}
             </b>
