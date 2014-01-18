@@ -3,6 +3,7 @@ title: "Five Most Recent Tickets"
 packages:
   - default
   - app_five_most_recent_app
+  - classic
 
 parts:
   - translation:
