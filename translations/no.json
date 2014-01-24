@@ -1,20 +1,20 @@
 {
   "app": {
-    "description": "Vis de sidste fem tickets, som anmoderen har sendt",
-    "name": "De sidste fem"
+    "description": "Vis de fem mest nylig opprettede sakene som anmoderen har sendt inn",
+    "name": "De fem siste"
   },
   "global": {
     "status": "Status:",
     "error": {
-      "title": "Der forekom en fejl",
-      "message": "Prøv forrige handling igen.",
-      "data": "Ticket-dataene kunne ikke læses."
+      "title": "Det oppstod en feil",
+      "message": "Prøv forrige handling på nytt.",
+      "data": "Kan ikke lese saksdata."
     }
   },
   "new": "Ny",
-  "hold": "I bero",
+  "hold": "På vent",
   "closed": "Lukket",
   "solved": "Løst",
-  "open": "Åben",
+  "open": "Åpen",
   "pending": "Venter"
 }

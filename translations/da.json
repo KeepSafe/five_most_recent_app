@@ -1,7 +1,7 @@
 {
   "app": {
-    "description": "Vis de sidste fem tickets, som anmoderen har sendt",
-    "name": "De sidste fem"
+    "description": "Vis de seneste fem tickets, som anmoderen har sendt",
+    "name": "Seneste fem tickets"
   },
   "global": {
     "status": "Status:",
