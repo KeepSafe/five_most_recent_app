@@ -1,20 +1,57 @@
 {
   "app": {
-    "description": "Display the five most recent tickets the requester has submitted",
-    "name": "Five most recent"
+    "description": {
+      "title": "App description",
+      "value": "Display the five most recent tickets the requester has submitted"
+    },
+    "name": {
+      "title": "App name",
+      "value": "Five most recent"
+    },
+    "package": "five_most_recent_app"
   },
   "global": {
-    "status": "Status:",
+    "status": {
+      "title": "Status of the ticket, following this will be the status of the ticket, can be either open, pending, solved etc...",
+      "value": "Status:"
+    },
     "error": {
-      "title": "An error occurred",
-      "message": "Please try the previous action again.",
-      "data": "Ticket data could not be read."
+      "title": {
+        "title": "Error message",
+        "value": "An error occurred"
+      },
+      "message": {
+        "title": "Error message",
+        "value": "Please try the previous action again."
+      },
+      "data": {
+        "title": "Error message",
+        "value": "Ticket data could not be read."
+      }
     }
   },
-  "new": "New",
-  "open": "Open",
-  "pending": "Pending",
-  "hold": "On-hold",
-  "solved": "Solved",
-  "closed": "Closed"
+  "new": {
+    "title": "New status",
+    "value": "New"
+  },
+  "hold": {
+    "title": "On Hold status",
+    "value": "On-hold"
+  },
+  "closed": {
+    "title": "Closed status",
+    "value": "Closed"
+  },
+  "solved": {
+    "title": "Solved status",
+    "value": "Solved"
+  },
+  "open": {
+    "title": "Open status",
+    "value": "Open"
+  },
+  "pending": {
+    "title": "Pending status",
+    "value": "Pending"
+  }
 }
