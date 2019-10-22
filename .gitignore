@@ -1,80 +1,11 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-
-# C extensions
-*.so
-
-# Distribution / packaging
-.DS_Store
-.Python
-bin/
-build/
-develop-eggs/
-dist/
-eggs/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
-tmp/
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Virtualenv
-venv/
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.cache
-.noseids
-nosetests.xml
-coverage.xml
-
-# Translations
-*.mo
-
-# Mr Developer
-.mr.developer.cfg
-.project
-.pydevproject
-
-# Rope
-.ropeproject
-
-# Django stuff:
-*.log
-*.pot
-
-# Sphinx documentation
-docs/_build/
-
-# Eclipse
-*.pydevproject
-.project
-.metadata
-
-# Intellij project files
+node_modules
+bower_components
+dist/assets/index.html
+dist/assets/main.css
+dist/assets/main.css.map
+dist/assets/main.js
+dist/assets/main.js.map
+dist/translations/
+dist/tmp/
+.idea/
 *.iml
-*.ipr
-*.iws
-.idea
-
-# Emacs
-\#*\#
-.#*
-
-# Sublime
-*.sublime-project
-*.sublime-workspace
-
-server/src
-server/etc/local.ini
-zendesk_app/.zat

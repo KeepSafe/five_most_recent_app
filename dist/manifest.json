@@ -1,0 +1,20 @@
+{
+  "name": "Five Most Recent Tickets",
+  "author": {
+    "name": "Zendesk",
+    "email": "support@zendesk.com"
+  },
+  "defaultLocale": "en",
+  "private": false,
+  "location": {
+    "support": {
+      "ticket_sidebar": "assets/index.html"
+    }
+  },
+  "frameworkVersion": "2.0",
+  "version": "1.0",
+  "migrator": {
+    "migratedAt": "Tue Oct 22 2019",
+    "version": "1.2.1"
+  }
+}
