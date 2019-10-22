@@ -1,0 +1,20 @@
+{
+  "app": {
+    "description": "De vijf meest recente tickets weergeven die de aanvrager heeft ingediend",
+    "name": "Vijf meest recente"
+  },
+  "global": {
+    "status": "Status:",
+    "error": {
+      "title": "Fout opgetreden",
+      "message": "Probeer de vorige actie nog een keer.",
+      "data": "Kan ticketgegevens niet lezen."
+    }
+  },
+  "new": "Nieuw",
+  "hold": "Geparkeerd",
+  "closed": "Gesloten",
+  "solved": "Opgelost",
+  "open": "Open",
+  "pending": "In afwachting"
+}

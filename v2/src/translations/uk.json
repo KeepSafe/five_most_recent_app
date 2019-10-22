@@ -1,0 +1,20 @@
+{
+  "app": {
+    "description": "Display the five most recent tickets the requester has submitted",
+    "name": "Five most recent"
+  },
+  "global": {
+    "status": "Status:",
+    "error": {
+      "title": "An error occurred",
+      "message": "Please try the previous action again.",
+      "data": "Ticket data could not be read."
+    }
+  },
+  "new": "New",
+  "hold": "On-hold",
+  "closed": "Closed",
+  "solved": "Solved",
+  "open": "Open",
+  "pending": "Pending"
+}

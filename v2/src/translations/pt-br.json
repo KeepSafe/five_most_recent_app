@@ -1,0 +1,20 @@
+{
+  "app": {
+    "description": "Exibir os cinco tickets mais recentes enviados pelo solicitante",
+    "name": "Cinco mais recentes"
+  },
+  "global": {
+    "status": "Status:",
+    "error": {
+      "title": "Ocorreu um erro",
+      "message": "Repita a ação anterior.",
+      "data": "Não foi possível ler os dados do ticket."
+    }
+  },
+  "new": "Novo",
+  "hold": "Em espera",
+  "closed": "Fechado",
+  "solved": "Resolvido",
+  "open": "Aberto",
+  "pending": "Pendente"
+}

@@ -1,0 +1,55 @@
+---
+title: "Five Most Recent Tickets"
+packages:
+  - default
+  - app_five_most_recent_app
+
+parts:
+  - translation:
+      key: "txt.apps.five_most_recent_app.app.description"
+      title: "App description"
+      value: "Display the five most recent tickets the requester has submitted"
+  - translation:
+      key: "txt.apps.five_most_recent_app.app.name"
+      title: "App name"
+      value: "Five most recent"
+  - translation:
+      key: "txt.apps.five_most_recent_app.global.status"
+      title: "Status of the ticket, following this will be the status of the ticket, can be either open, pending, solved etc..."
+      value: "Status:"
+  - translation:
+      key: "txt.apps.five_most_recent_app.global.error.title"
+      title: "Error message"
+      value: "An error occurred"
+  - translation:
+      key: "txt.apps.five_most_recent_app.global.error.message"
+      title: "Error message"
+      value: "Please try the previous action again."
+  - translation:
+      key: "txt.apps.five_most_recent_app.global.error.data"
+      title: "Error message"
+      value: "Ticket data could not be read."
+  - translation:
+      key: "txt.apps.five_most_recent_app.new"
+      title: "New status"
+      value: "New"
+  - translation:
+      key: "txt.apps.five_most_recent_app.hold"
+      title: "On Hold status"
+      value: "On-hold"
+  - translation:
+      key: "txt.apps.five_most_recent_app.closed"
+      title: "Closed status"
+      value: "Closed"
+  - translation:
+      key: "txt.apps.five_most_recent_app.solved"
+      title: "Solved status"
+      value: "Solved"
+  - translation:
+      key: "txt.apps.five_most_recent_app.open"
+      title: "Open status"
+      value: "Open"
+  - translation:
+      key: "txt.apps.five_most_recent_app.pending"
+      title: "Pending status"
+      value: "Pending"

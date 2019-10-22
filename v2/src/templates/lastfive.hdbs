@@ -1,0 +1,20 @@
+<section data-main>
+  <table class="table table-condensed">
+    <tbody>
+      {{#each lastestFiveArr}}
+        <tr class="_tooltip" data-title="{{description}}">
+          <td><a href="#/tickets/{{id}}"><b>#{{id}}</b> {{subject}}</a></td>
+
+          <td class='status-cell'>
+            <b class="status">
+              {{t "global.status"}}
+            </b>
+
+            {{t status}}
+          </td>
+        </tr>
+
+      {{/each}}
+    </tbody>
+  </table>
+</section>
