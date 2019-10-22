@@ -34,12 +34,26 @@ const App = (function() {
       );
     },
     getUserData: function() {
-      this.ajax(
-        "fullUserData",
-        this.ticket()
-          .requester()
-          .id()
-      );
+      let requesterKey = 'ticket.requester';
+      this.zafClient.get(requesterKey)
+          .then((data) => {
+            console.log('getUserData', data);
+            return data[requesterKey];
+          })
+          .then((requester) => {
+            return this.zafClient.request({
+              url: `/api/v2/users/${requester.id}/tickets/requested.json?sort_order=desc`,
+              dataType: "json"
+            })
+          })
+          .then((data) => this.handleUserResults(data))
+          .catch((err) => this.handleUnknownRequester(err));
+    },
+    handleUnknownRequester: function(err) {
+      console.log('handleUnknownRequester', err);
+      this.switchTo("error", {
+        message: "Unknown ticket requester!"
+      });
     },
     handleUserResults: function(data) {
       var lastestFive = _.first(data.tickets, 5).sort(function(a, b) {

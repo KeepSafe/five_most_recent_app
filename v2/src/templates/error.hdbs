@@ -1,0 +1,3 @@
+<section data-main>
+    <span class="ksErrorLabel">{{message}}</span>
+</section>
