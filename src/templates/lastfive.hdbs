@@ -3,7 +3,7 @@
     <tbody>
       {{#each lastestFiveArr}}
         <tr class="_tooltip" data-title="{{description}}">
-          <td><a href="#/tickets/{{id}}"><b>#{{id}}</b> {{subject}}</a></td>
+          <td><a id="{{id}}" class="prev-ticket"><b>#{{id}}</b> {{subject}}</a></td>
 
           <td class='status-cell'>
             <b class="status">

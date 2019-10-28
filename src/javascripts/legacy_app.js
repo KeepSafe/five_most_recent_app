@@ -65,6 +65,10 @@ const App = (function() {
       this.switchTo("lastfive", {
         lastestFiveArr: lastestFive
       });
+      $(document).on('click', '.prev-ticket', (el) => {
+        let ticketId = el.target.id;
+        this.zafClient.invoke('routeTo', 'ticket', ticketId);
+      });
     },
     safeGetPath: function(propertyPath) {
       return _.inject(
